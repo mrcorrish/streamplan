@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>MrCorrish · Streamplan</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#0e141b;color:#eef5fb}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 80% -10%,#123340 0,transparent 48%),#0e141b;min-height:100vh}
+main{max-width:950px;margin:0 auto;padding:52px 22px 65px}
+.kicker{color:#29c3db;letter-spacing:.17em;font-weight:800;font-size:12px}
+h1{font-size:clamp(34px,6vw,56px);letter-spacing:-.035em;margin:10px 0 10px}
+.lead{color:#b3c4d0;line-height:1.55;margin:0 0 32px}
+.section{margin-top:34px}
+.week{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:0 0 15px}
+.week h2{font-size:19px;margin:0}
+.week span{color:#94a8b9;font-size:13px}
+.cards{display:grid;gap:12px}
+.card{display:grid;grid-template-columns:82px minmax(0,1fr) auto;gap:19px;align-items:center;background:#1b2632;border:1px solid #324453;border-radius:14px;padding:20px 22px}
+.date{text-align:center;border-right:1px solid #344656;padding-right:17px}
+.date strong{display:block;color:#eaf6fa;font-size:22px}
+.date small{display:block;color:#99b3c5;font-size:12px;text-transform:uppercase}
+.name{font-size:20px;font-weight:700;overflow-wrap:anywhere}
+.time{color:#adc0ce;font-size:14px;margin-top:5px}
+.tag{display:inline-block;border-radius:100px;padding:7px 11px;font-size:12px;font-weight:700;white-space:nowrap}
+.confirmed{color:#a9edc6;background:#174334}
+.optional{color:#ffe2a2;background:#4b3920}
+.cancelled{color:#ffb8b8;background:#4a292d}
+.moved{color:#b9d8ff;background:#253d5d}
+.card.is-cancelled{opacity:.72}
+.empty{background:#1b2632;border:1px dashed #455665;border-radius:14px;padding:28px;color:#b3c4d0}
+footer{border-top:1px solid #2c3b49;margin-top:38px;padding-top:20px;color:#95aabd;font-size:13px;line-height:1.6}
+@media(max-width:580px){main{padding:32px 15px}.card{grid-template-columns:54px 1fr;gap:13px;padding:17px}.date{padding-right:10px}.date strong{font-size:19px}.name{font-size:17px}.tag{grid-column:2;justify-self:start}.week{display:block}.week span{display:block;margin-top:5px}}
+</style>
+</head>
+<body><main>
+<div class="kicker">MRCORRISH · LIVE AUF TWITCH</div>
+<h1>Streamplan</h1>
+<p class="lead">Unsere nächsten gemeinsamen Abende und Entdeckungsreisen. Termine können sich ändern – hier siehst du den aktuellen Plan.</p><section class="section"><div class="week"><h2>Diese Woche</h2><span>05.10. – 11.10.2026</span></div><div class="cards"><article class="card is-cancelled"><div class="date"><strong>So</strong><small>11.10.</small></div><div><div class="name">Fr&#252;hst&#252;cksfernsehen</div><div class="time">11:00 Uhr</div></div><span class="tag cancelled">Entf&#228;llt</span></article><article class="card "><div class="date"><strong>So</strong><small>11.10.</small></div><div><div class="name">Kenshi</div><div class="time">19:00 Uhr</div></div><span class="tag confirmed">Best&#228;tigt</span></article></div></section><section class="section"><div class="week"><h2>Nächste Woche</h2><span>12.10. – 18.10.2026</span></div><div class="cards"><article class="card "><div class="date"><strong>Di</strong><small>13.10.</small></div><div><div class="name">Dark &amp; Darker</div><div class="time">19:00 Uhr</div></div><span class="tag confirmed">Best&#228;tigt</span></article><article class="card "><div class="date"><strong>Do</strong><small>15.10.</small></div><div><div class="name">They Are Billions</div><div class="time">Abends</div></div><span class="tag optional">Noch offen</span></article></div></section><footer>Bestätigte Termine sind geplant, optionale Termine noch offen. Änderungen vorbehalten.<br>MrCorrish · Streamplan</footer></main></body></html>
